@@ -45,7 +45,7 @@ body {
 }
 
 .google-button .icon {
-  background: url(./assets/google.svg) no-repeat;
+  background: url(./google.svg) no-repeat;
   float: left;
   width: 30px;
   height: 30px;
@@ -67,7 +67,7 @@ body {
 }
 
 .facebook-button .icon {
-  background: url(./assets/facebook.svg) no-repeat;
+  background: url(./facebook.svg) no-repeat;
   float: left;
   width: 35px;
   height: 35px;
@@ -95,7 +95,7 @@ button {
 }
 
 .input-username .icon{
-  background: url(./assets/username.svg) no-repeat;
+  background: url(./username.svg) no-repeat;
   float: left;
   height: 20px;
   width: 20px;
@@ -103,7 +103,7 @@ button {
 }
 
 .input-email .icon{
-  background: url(./assets/email.svg) no-repeat ;
+  background: url(./email.svg) no-repeat ;
   float: left;
   height: 20px;
   width: 20px;
@@ -111,7 +111,7 @@ button {
 }
 
 .input-password .icon{
-  background: url(./assets/password.svg) no-repeat ;
+  background: url(./password.svg) no-repeat ;
   float: left;
   height: 20px;
   width: 20px;
