@@ -1,4 +1,11 @@
-import { useFormik } from 'formik';
+import { useFormik } from 'formik'
+
+import googleIcon from '../assets/google.svg'
+import facebookIcon from '../assets/facebook.svg'
+import userNameIcon from '../assets/username.svg'
+import emailIcon from '../assets/email.svg'
+import passwordIcon from '../assets/password.svg'
+
 import './App.css'
 
 function App() {
@@ -50,24 +57,24 @@ function App() {
           <form onSubmit={formik.handleSubmit}>
             <div className="input-username" >
               <input type="text" id="userName" name="userName" placeholder="Username" value={formik.values.userName} onChange={formik.handleChange}></input>
-              <i className="icon" />
+              <img src={userNameIcon} className="icon" />
               {formik.errors.userName ? <div className="input-error">{formik.errors.userName}</div> : null}
             </div>
             <div className="input-email" >
               <input type="email" name="email" placeholder="Email" value={formik.values.email} onChange={formik.handleChange}></input>
-              <i className="icon" />
+              <img src={emailIcon} className="icon" />
               {formik.errors.email ? <div className="input-error">{formik.errors.email}</div> : null}
             </div>
             <div className="input-password" >
               <input type="password" name="password" placeholder="Password" value={formik.values.password} onChange={formik.handleChange}></input>
-              <i className="icon" />
+              <img src={passwordIcon} className="icon" />
               {formik.errors.password ? <div className="input-error">{formik.errors.password}</div> : null}
             </div>
             <button className='register-button' type="submit">Create Account</button>
           </form>
           <div className="third-party-login">
-            <button className="google-button" type="button"><i className="icon" />Google</button>
-            <button className="facebook-button" type="button"><i className="icon" />Facebook</button>
+            <button className="google-button" type="button"><img src={googleIcon} className="icon" />Google</button>
+            <button className="facebook-button" type="button"><img src={facebookIcon} className="icon" />Facebook</button>
           </div>
         </div>
       </div>

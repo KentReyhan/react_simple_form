@@ -41,15 +41,15 @@ body {
   align-items: center;
   margin-right: 1em;
   padding: 1em;
+  padding-left: 1em;
   border: 1px solid #e5e5e5;
 }
 
 .google-button .icon {
-  background: url(./google.svg) no-repeat;
   float: left;
-  width: 30px;
-  height: 30px;
-  transform: translate(15%, 15%);
+  width: 25px;
+  height: 25px;
+  padding-right: 1em;
 }
 
 .google-button:hover {
@@ -67,11 +67,10 @@ body {
 }
 
 .facebook-button .icon {
-  background: url(./facebook.svg) no-repeat;
   float: left;
-  width: 35px;
-  height: 35px;
-  transform: translate(10%, 10%);
+  width: 25px;
+  height: 25px;
+  padding-right: 1em;
 }
 
 .facebook-button:hover {
@@ -95,7 +94,6 @@ button {
 }
 
 .input-username .icon{
-  background: url(./username.svg) no-repeat;
   float: left;
   height: 20px;
   width: 20px;
@@ -103,7 +101,6 @@ button {
 }
 
 .input-email .icon{
-  background: url(./email.svg) no-repeat ;
   float: left;
   height: 20px;
   width: 20px;
@@ -111,7 +108,6 @@ button {
 }
 
 .input-password .icon{
-  background: url(./password.svg) no-repeat ;
   float: left;
   height: 20px;
   width: 20px;
